@@ -1,0 +1,68 @@
+{
+  "api": 1,
+  "transformers": [
+    {
+      "transformer": "world->level",
+      "type": "Lnet/minecraft/world/level/Level;"
+    },
+    {
+      "transformer": "-entity",
+      "type": "Lnet/minecraft/world/entity/Entity;",
+      "targets": [ "child_class" ]
+    },
+    {
+      "transformer": "world->level",
+      "type": "Lnet/minecraft/world/level/Level;"
+    },
+    {
+      "transformer": "matrix->pose",
+      "type": "Lcom/mojang/blaze3d/vertex/PoseStack;"
+    },
+    {
+      "transformer": "group->tab",
+      "type": "Lnet/minecraft/world/item/CreativeModeTab;",
+      "targets": [ "child_class" ]
+    },
+    {
+      "transformer": "item_group->item_category",
+      "type": "Lnet/minecraft/world/item/CreativeModeTab;"
+    },
+    {
+      "transformer": "group->category",
+      "type": "Lnet/minecraft/world/item/CreativeModeTab;",
+      "targets": [ "field", "method", "parameter" ]
+    },
+    {
+      "transformer": "tile_entity->block_entity",
+      "type": "Lnet/minecraft/world/level/block/entity/BlockEntity;"
+    },
+    {
+      "transformer": "te->be",
+      "type": "Lnet/minecraft/world/level/block/entity/BlockEntity;"
+    },
+    {
+      "transformer": "t_e->b_e",
+      "type": "Lnet/minecraft/world/level/block/entity/BlockEntity;"
+    },
+    {
+      "transformer": "rotation_yaw->y_rot",
+      "types": [ "F", "D" ],
+      "targets": [ "field", "method", "parameter" ]
+    },
+    {
+      "transformer": "yaw->y_rot",
+      "types": [ "F", "D" ],
+      "targets": [ "field", "method", "parameter" ]
+    },
+    {
+      "transformer": "rotation_pitch->x_rot",
+      "types": [ "F", "D" ],
+      "targets": [ "field", "method", "parameter" ]
+    },
+    {
+      "transformer": "pitch->x_rot",
+      "types": [ "F", "D" ],
+      "targets": [ "field", "method", "parameter" ]
+    }
+  ]
+}
