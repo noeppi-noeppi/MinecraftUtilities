@@ -11,8 +11,37 @@
       "targets": [ "child_class" ]
     },
     {
+      "transformer": "i_inventory->container",
+      "type": "Lnet/minecraft/world/Container;"
+    },
+    {
+      "transformer": "inventory->container",
+      "type": "Lnet/minecraft/world/Container;"
+    },
+    {
+      "transformer": "container->container_menu",
+      "type": "Lnet/minecraft/world/inventory/AbstractContainerMenu;",
+      "targets": [ "child_class", "utility_class" ]
+    },
+    {
+      "transformer": "container->container_menu",
+      "type": "Lnet/minecraft/world/inventory/AbstractContainerMenu;",
+      "targets": [ "child_class", "utility_class" ]
+    },
+    {
+      "transformer": "container->menu",
+      "types": [
+        "Lnet/minecraft/world/inventory/AbstractContainerMenu;",
+        "Lnet/minecraft/world/inventory/MenuType;"
+      ]
+    },
+    {
       "transformer": "matrix->pose",
       "type": "Lcom/mojang/blaze3d/vertex/PoseStack;"
+    },
+    {
+      "transformer": "entry->pose",
+      "type": "Lcom/mojang/blaze3d/vertex/PoseStack$Pose;"
     },
     {
       "transformer": "group->tab",
@@ -30,35 +59,149 @@
     },
     {
       "transformer": "tile_entity->block_entity",
-      "type": "Lnet/minecraft/world/level/block/entity/BlockEntity;"
+      "types": [
+        "Lnet/minecraft/world/level/block/entity/BlockEntity;",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderer"
+      ]
+    },
+    {
+      "transformer": "tesr->renderer",
+      "type": "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
+      "targets": [ "child_class", "param", "local" ]
+    },
+    {
+      "transformer": "t_e_s_r->renderer",
+      "type": "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
+      "targets": [ "child_class", "param", "local" ]
+    },
+    {
+      "transformer": "tesr->block_renderer",
+      "type": "net/minecraft/client/renderer/blockentity/BlockEntityRenderer"
+    },
+    {
+      "transformer": "t_e_s_r->block_renderer",
+      "type": "net/minecraft/client/renderer/blockentity/BlockEntityRenderer"
     },
     {
       "transformer": "te->be",
-      "type": "Lnet/minecraft/world/level/block/entity/BlockEntity;"
+      "types": [
+        "Lnet/minecraft/world/level/block/entity/BlockEntity;",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher"
+      ]
     },
     {
       "transformer": "t_e->b_e",
-      "type": "Lnet/minecraft/world/level/block/entity/BlockEntity;"
+      "types": [
+        "Lnet/minecraft/world/level/block/entity/BlockEntity;",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher"
+      ]
     },
     {
       "transformer": "rotation_yaw->y_rot",
       "types": [ "F", "D" ],
-      "targets": [ "field", "method", "parameter" ]
+      "targets": [ "field", "method", "parameter", "local" ]
     },
     {
       "transformer": "yaw->y_rot",
       "types": [ "F", "D" ],
-      "targets": [ "field", "method", "parameter" ]
+      "targets": [ "field", "method", "parameter", "local" ]
     },
     {
       "transformer": "rotation_pitch->x_rot",
       "types": [ "F", "D" ],
-      "targets": [ "field", "method", "parameter" ]
+      "targets": [ "field", "method", "parameter", "local" ]
     },
     {
       "transformer": "pitch->x_rot",
       "types": [ "F", "D" ],
-      "targets": [ "field", "method", "parameter" ]
+      "targets": [ "field", "method", "parameter", "local" ]
+    },
+    {
+      "transformer": "builder->consumer",
+      "type": "Lcom/mojang/blaze3d/vertex/VertexConsumer;"
+    },
+    {
+      "transformer": "vertex->buffer",
+      "type": "Lcom/mojang/blaze3d/vertex/BufferVertexConsumer;",
+      "targets": [ "utility_class", "method", "field", "method", "parameter", "local" ]
+    },
+    {
+      "transformer": "delegate->multi",
+      "type": "Lcom/mojang/blaze3d/vertex/VertexMultiConsumer$Double;"
+    },
+    {
+      "transformer": "instance->trigger_instance",
+      "type": "Lnet/minecraft/advancements/CriterionTriggerInstance;",
+      "targets": [ "child_class" ]
+    },
+    {
+      "transformer": "tree->tree_grower",
+      "type": "Lnet/minecraft/world/level/block/grower/AbstractTreeGrower;",
+      "targets": [ "child_class", "utility_class" ]
+    },
+    {
+      "transformer": "lockable->container_block",
+      "type": "Lnet/minecraft/world/level/block/entity/BaseContainerBlockEntity;"
+    },
+    {
+      "transformer": "-renderer",
+      "type": "Lnet/minecraft/client/gui/Font;"
+    },
+    {
+      "transformer": "teisr->bewlr",
+      "type": "Lnet/minecraft/client/renderer/BlockEntityWithoutLevelRenderer;"
+    },
+    {
+      "transformer": "ister->bewlr",
+      "type": "Lnet/minecraft/client/renderer/BlockEntityWithoutLevelRenderer;"
+    },
+    {
+      "transformer": "t_e_i_s_r->b_e_w_l_r",
+      "type": "Lnet/minecraft/client/renderer/BlockEntityWithoutLevelRenderer;"
+    },
+    {
+      "transformer": "i_s_t_e_r->b_e_w_l_r",
+      "type": "Lnet/minecraft/client/renderer/BlockEntityWithoutLevelRenderer;"
+    },
+    {
+      "transformer": "framebuffer->render_target",
+      "type": "Lcom/mojang/blaze3d/pipeline/RenderTarget;"
+    },
+    {
+      "transformer": "buffer->target",
+      "type": "Lcom/mojang/blaze3d/pipeline/RenderTarget;"
+    },
+    {
+      "transformer": "game_settings->options",
+      "type": "Lnet/minecraft/client/Options;"
+    },
+    {
+      "transformer": "settings->options",
+      "type": "Lnet/minecraft/client/Options;"
+    },
+    {
+      "transformer": "abstract->base",
+      "types":  [
+        "Lnet/minecraft/world/level/block/Block;",
+        "Lnet/minecraft/world/item/Item;",
+        "Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;"
+      ],
+      "targets": [ "child_class" ]
+    },
+    {
+      "transformer": "abstract->behaviour",
+      "type": "Lnet/minecraft/block/AbstractBlock;",
+      "targets": [ "child_class" ]
+    },
+    {
+      "transformer": "resources->assets",
+      "type": "Lnet/minecraft/client/resources/AssetIndex;"
+    },
+    {
+      "transformer": "resource->asset",
+      "type": "Lnet/minecraft/client/resources/AssetIndex;"
     }
   ]
 }
