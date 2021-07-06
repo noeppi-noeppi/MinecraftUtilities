@@ -11,10 +11,6 @@
       "targets": [ "child_class" ]
     },
     {
-      "transformer": "world->level",
-      "type": "Lnet/minecraft/world/level/Level;"
-    },
-    {
       "transformer": "matrix->pose",
       "type": "Lcom/mojang/blaze3d/vertex/PoseStack;"
     },
