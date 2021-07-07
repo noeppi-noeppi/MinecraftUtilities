@@ -192,7 +192,7 @@
     },
     {
       "transformer": "abstract->behaviour",
-      "type": "Lnet/minecraft/block/AbstractBlock;",
+      "type": "Lnet/minecraft/world/level/block/state/BlockBehaviour;",
       "targets": [ "child_class" ]
     },
     {
