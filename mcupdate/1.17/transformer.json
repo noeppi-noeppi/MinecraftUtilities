@@ -67,12 +67,12 @@
     {
       "transformer": "tesr->renderer",
       "type": "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
-      "targets": [ "child_class", "param", "local" ]
+      "targets": [ "child_class", "parameter", "local" ]
     },
     {
       "transformer": "t_e_s_r->renderer",
       "type": "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
-      "targets": [ "child_class", "param", "local" ]
+      "targets": [ "child_class", "parameter", "local" ]
     },
     {
       "transformer": "tesr->block_renderer",
@@ -202,6 +202,14 @@
     {
       "transformer": "resource->asset",
       "type": "Lnet/minecraft/client/resources/AssetIndex;"
+    },
+    {
+      "transformer": "mark_dirty->set_changed",
+      "members": [
+        "markDirty#0",
+        "markDirty#1"
+      ],
+      "targets": [ "method" ]
     }
   ]
 }
