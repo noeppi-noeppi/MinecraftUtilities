@@ -3,7 +3,17 @@
   "transformers": [
     {
       "transformer": "world->level",
-      "type": "Lnet/minecraft/world/level/Level;"
+      "types":  [
+        "Lnet/minecraft/world/level/Level;",
+        "Lnet/minecraft/world/level/LevelAccessor;",
+        "Lnet/minecraft/world/level/CommonLevelAccessor;",
+        "Lnet/minecraft/world/level/LevelReader;",
+        "Lnet/minecraft/world/level/BlockGetter;",
+        "Lnet/minecraft/world/level/LevelHeightAccessor;",
+        "Lnet/minecraft/world/level/EntityGetter;",
+        "Lnet/minecraft/world/level/LevelSimulatedReader;",
+        "Lnet/minecraft/world/level/LevelWriter;"
+      ]
     },
     {
       "transformer": "-entity",
@@ -210,6 +220,33 @@
         "markDirty#1"
       ],
       "targets": [ "method" ]
+    },
+    {
+      "transformer": "item_provider->item_like",
+      "type": "Lnet/minecraft/world/level/ItemLike;",
+      "targets": [ "field", "method", "parameter", "local" ],
+      "exact_type": true
+    },
+    {
+      "transformer": "provider->item",
+      "type": "Lnet/minecraft/world/level/ItemLike;",
+      "targets": [ "field", "method", "parameter", "local" ],
+      "exact_type": true
+    },
+    {
+      "transformer": "is_remote->is_client_side",
+      "types":  [
+        "Lnet/minecraft/world/level/Level;",
+        "Lnet/minecraft/world/level/LevelAccessor;",
+        "Lnet/minecraft/world/level/CommonLevelAccessor;",
+        "Lnet/minecraft/world/level/LevelReader;",
+        "Lnet/minecraft/world/level/BlockGetter;",
+        "Lnet/minecraft/world/level/LevelHeightAccessor;",
+        "Lnet/minecraft/world/level/EntityGetter;",
+        "Lnet/minecraft/world/level/LevelSimulatedReader;",
+        "Lnet/minecraft/world/level/LevelWriter;"
+      ],
+      "targets": [ "field", "method", "parameter", "local" ]
     }
   ]
 }
