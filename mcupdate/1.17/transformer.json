@@ -235,7 +235,7 @@
     },
     {
       "transformer": "is_remote->is_client_side",
-      "types":  [
+      "types": [
         "Lnet/minecraft/world/level/Level;",
         "Lnet/minecraft/world/level/LevelAccessor;",
         "Lnet/minecraft/world/level/CommonLevelAccessor;",
@@ -247,6 +247,23 @@
         "Lnet/minecraft/world/level/LevelWriter;"
       ],
       "targets": [ "field", "method", "parameter", "local" ]
+    },
+    {
+      "transformer": "resource_pack_list->pack_repository",
+      "type": "Lnet/minecraft/server/packs/repository/PackRepository;"
+    },
+    {
+      "transformer": "pack_list->pack_repository",
+      "type": "Lnet/minecraft/server/packs/repository/PackRepository;"
+    },
+    {
+      "transformer": "list->repository",
+      "type": "Lnet/minecraft/server/packs/repository/PackRepository;",
+      "targets": [ "field", "method", "parameter", "local" ]
+    },
+    {
+      "transformer": "resource_pack->pack",
+      "type": "Lnet/minecraft/server/packs/repository/PackRepository;"
     }
   ]
 }

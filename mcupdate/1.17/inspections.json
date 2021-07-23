@@ -1,0 +1,18 @@
+{
+  "api": 1,
+  "inspections": [
+    {
+      "type": "assign",
+      "strict": true,
+      "targets": [
+        "net/minecraft/core/BlockPos#<init>(III)V@1",
+        "net/minecraft/core/BlockPos#<init>(DDD)V@1",
+        "net/minecraft/core/BlockPos$MutableBlockPos#<init>(DDD)V@1",
+        "net/minecraft/core/BlockPos$MutableBlockPos#<init>(DDD)V@1",
+        "net/minecraft/core/BlockPos#setY(I)Lnet/minecraft/core/Vec3i;@0"
+      ],
+      "value": [ "number", "![0;255]" ],
+      "message": "Values out of range [0;255] can no longer be expected to be out of the world."
+    }
+  ]
+}

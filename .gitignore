@@ -1,2 +1,4 @@
 .idea
 /scripts
+/maven/io/github/noeppi_noeppi/tools/modgradle
+/maven/io/github/noeppi_noeppi/tools/plugin
