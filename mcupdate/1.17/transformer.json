@@ -264,6 +264,23 @@
     {
       "transformer": "resource_pack->pack",
       "type": "Lnet/minecraft/server/packs/repository/PackRepository;"
+    },
+    {
+      "transformer": "text_component->component",
+      "types": [
+        "Lnet/minecraft/network/chat/Component;",
+        "Lnet/minecraft/network/chat/MutableComponent;"
+      ],
+      "targets": [ "field", "method", "parameter", "local" ],
+      "exact_type": true
+    },
+    {
+      "transformer": "text_component->component",
+      "types": [
+        "Lnet/minecraft/network/chat/Component;",
+        "Lnet/minecraft/network/chat/MutableComponent;"
+      ],
+      "targets": [ "child_class", "utility_class" ]
     }
   ]
 }
