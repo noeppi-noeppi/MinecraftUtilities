@@ -27,11 +27,11 @@
         {
           "name": "ModGradle-1.0.21.jar",
           "url": "ModGradle-1.0.21.jar",
-          "size": 214942,
-          "sha512": "164012ea90d3898b7e3e5a1eb517632de70b8440de139798dbd9dbb500b24ebede02ff8942ca0edbd8f43f78ba6b7401db4ec743397b3678b14b202cb0c49cb5",
-          "sha256": "fcaa4b8fad3c6ed4fc311dc20ef7dc82624b6d9ab215f89f776bb96830455c33",
-          "sha1": "721eecc36ff34228f512f0bb59c46d77db4bb139",
-          "md5": "ad974ab39c795a8f30db878da0c496f6"
+          "size": 215002,
+          "sha512": "25d11a3d24e146483a7b4da7c0555fa63e4fbdc19837b58f1f35c8c75fd599db1521e2176c8b4b6771e95b20c2d008a29bbdd5e0ca3c9eef4d74c15a14d8e52e",
+          "sha256": "603ebc21218de12d4cf00763e86de4524880ba56a606f0b1d52787ac25131233",
+          "sha1": "e9d566b606ed5428c49c6f4c70f11b9602bc293d",
+          "md5": "0cb4c57c42c4393457bd75b673be5879"
         }
       ]
     },
@@ -167,11 +167,11 @@
         {
           "name": "ModGradle-1.0.21.jar",
           "url": "ModGradle-1.0.21.jar",
-          "size": 214942,
-          "sha512": "164012ea90d3898b7e3e5a1eb517632de70b8440de139798dbd9dbb500b24ebede02ff8942ca0edbd8f43f78ba6b7401db4ec743397b3678b14b202cb0c49cb5",
-          "sha256": "fcaa4b8fad3c6ed4fc311dc20ef7dc82624b6d9ab215f89f776bb96830455c33",
-          "sha1": "721eecc36ff34228f512f0bb59c46d77db4bb139",
-          "md5": "ad974ab39c795a8f30db878da0c496f6"
+          "size": 215002,
+          "sha512": "25d11a3d24e146483a7b4da7c0555fa63e4fbdc19837b58f1f35c8c75fd599db1521e2176c8b4b6771e95b20c2d008a29bbdd5e0ca3c9eef4d74c15a14d8e52e",
+          "sha256": "603ebc21218de12d4cf00763e86de4524880ba56a606f0b1d52787ac25131233",
+          "sha1": "e9d566b606ed5428c49c6f4c70f11b9602bc293d",
+          "md5": "0cb4c57c42c4393457bd75b673be5879"
         }
       ]
     }
