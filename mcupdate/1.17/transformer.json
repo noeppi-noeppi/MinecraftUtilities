@@ -93,7 +93,7 @@
       "type": "net/minecraft/client/renderer/blockentity/BlockEntityRenderer"
     },
     {
-      "transformer": "te->be",
+      "transformer": "_te->_be",
       "types": [
         "Lnet/minecraft/world/level/block/entity/BlockEntity;",
         "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
@@ -101,7 +101,23 @@
       ]
     },
     {
-      "transformer": "t_e->b_e",
+      "transformer": "te_->be_",
+      "types": [
+        "Lnet/minecraft/world/level/block/entity/BlockEntity;",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher"
+      ]
+    },
+    {
+      "transformer": "_t_e->_b_e",
+      "types": [
+        "Lnet/minecraft/world/level/block/entity/BlockEntity;",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher"
+      ]
+    },
+    {
+      "transformer": "t_e_->b_e_",
       "types": [
         "Lnet/minecraft/world/level/block/entity/BlockEntity;",
         "net/minecraft/client/renderer/blockentity/BlockEntityRenderer",
