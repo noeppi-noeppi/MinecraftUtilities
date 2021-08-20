@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <plugins>
+    <plugin id="io.github.noeppi_noeppi.tools.moonstone" url="https://noeppi-noeppi.github.io/MinecraftUtilities/maven/io/github/noeppi_noeppi/tools/Moonstone/0.0.1/Moonstone-0.0.1-fatjar.jar" version="0.0.1">
+        <name>Minecraft Moonstone</name>
+        <description>Create mod lists for Curse mods from inside of the IDE</description>
+        <idea-version since-build="212" until-build=""/>
+    </plugin>
     <plugin id="io.github.noeppi_noeppi.tools.moonstone" url="https://noeppi-noeppi.github.io/MinecraftUtilities/maven/io/github/noeppi_noeppi/tools/Moonstone/0.0.2/Moonstone-0.0.2-fatjar.jar" version="0.0.2">
         <name>Minecraft Moonstone</name>
         <description>Create mod lists for Curse mods from inside of the IDE</description>
