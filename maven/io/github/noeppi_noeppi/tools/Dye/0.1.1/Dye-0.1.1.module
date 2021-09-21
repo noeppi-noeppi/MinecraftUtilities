@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "Dye",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Dye-0.1.1.jar",
+          "url": "Dye-0.1.1.jar",
+          "size": 35276,
+          "sha512": "43c5a553fe578fda5b5a2cf1b5cb09cb17449f7cdff43c2253b7e9c495a93a32a5d76d5b951b4c9f93f02ac1cdf2b13f14fee6553f95cdb884fb2878f44489c3",
+          "sha256": "67326e9f74b4a7e0714d7d0a9e32ec8ddaf154c8f1afd2b02c83db0bb7842c1e",
+          "sha1": "13b15a09f8dd1921ca1da24e3a6b5eff2e21b482",
+          "md5": "b34b1b244529c42901ae55766fbc4406"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.14.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Dye-0.1.1.jar",
+          "url": "Dye-0.1.1.jar",
+          "size": 35276,
+          "sha512": "43c5a553fe578fda5b5a2cf1b5cb09cb17449f7cdff43c2253b7e9c495a93a32a5d76d5b951b4c9f93f02ac1cdf2b13f14fee6553f95cdb884fb2878f44489c3",
+          "sha256": "67326e9f74b4a7e0714d7d0a9e32ec8ddaf154c8f1afd2b02c83db0bb7842c1e",
+          "sha1": "13b15a09f8dd1921ca1da24e3a6b5eff2e21b482",
+          "md5": "b34b1b244529c42901ae55766fbc4406"
+        }
+      ]
+    }
+  ]
+}
