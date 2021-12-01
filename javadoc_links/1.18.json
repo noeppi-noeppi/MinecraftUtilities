@@ -120,6 +120,64 @@
       "res": "https://repo1.maven.org/maven2/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-javadoc.jar"
     }
   ],
-  "mcp": [],
-  "forge": []
+  "mcp": [
+    {
+      "url": "https://javadoc.io/doc/com.google.code.findbugs/jsr305/3.0.1",
+      "res": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.jetbrains/annotations/23.0.0",
+      "res": "https://repo1.maven.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0-javadoc.jar"
+    }
+  ],
+  "forge": [
+    {
+      "url": "https://javadoc.io/doc/org.ow2.asm/asm/9.1",
+      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.1/asm-9.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.ow2.asm/asm-commons/9.1",
+      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.ow2.asm/asm-tree/9.1",
+      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.1/asm-tree-9.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.ow2.asm/asm-util/9.1",
+      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.1/asm-util-9.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.ow2.asm/asm-analysis/9.1",
+      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.antlr/antlr4-runtime/4.9.1",
+      "res": "https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/com.electronwill.night-config/core/3.6.4",
+      "res": "https://repo1.maven.org/maven2/com/electronwill/night-config/core/3.6.4/core-3.6.4-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/com.electronwill.night-config/toml/3.6.4",
+      "res": "https://repo1.maven.org/maven2/com/electronwill/night-config/toml/3.6.4/toml-3.6.4-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.apache.maven/maven-artifact/3.6.3",
+      "res": "https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.apache.commons/commons-lang3/3.12.0",
+      "res": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/net.minecrell/terminalconsoleappender/1.2.0",
+      "res": "https://repo1.maven.org/maven2/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.openjdk.nashorn/nashorn-core/15.3",
+      "res": "https://repo1.maven.org/maven2/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3-javadoc.jar"
+    }
+  ]
 }
