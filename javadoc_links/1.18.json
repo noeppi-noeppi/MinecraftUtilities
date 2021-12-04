@@ -178,6 +178,9 @@
     {
       "url": "https://javadoc.io/doc/org.openjdk.nashorn/nashorn-core/15.3",
       "res": "https://repo1.maven.org/maven2/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3-javadoc.jar"
+    },
+    {
+      "url": "https://jenkins.liteloader.com/job/Mixin/310/javadoc"
     }
   ]
 }
