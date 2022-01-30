@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "CurseWrapperServer",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.noeppi_noeppi.tools",
+          "module": "CurseWrapperShared",
+          "version": {
+            "requires": "0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CurseWrapperServer-0.1.jar",
+          "url": "CurseWrapperServer-0.1.jar",
+          "size": 101174,
+          "sha512": "7ecdbc00e4a432e74c87653f1d5f96532dfbc463b56a6adfb7490b4f997f63636fbcc15f546b5a5c8051a6288c3953bc9ffd5aa63086cca5cc8587dd7a49baf2",
+          "sha256": "14a86a0ca626d7a4eaea4a863763ec8bdf605a384c4b0ad6c1aa16b58a2d09ed",
+          "sha1": "b9e352951480d29f074c8bbe4c0f1c9e2650b251",
+          "md5": "80ce320f4a8266350f23fa7a30966d56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "com.sparkjava",
+          "module": "spark-core",
+          "version": {
+            "requires": "2.9.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.33"
+          }
+        },
+        {
+          "group": "io.github.noeppi_noeppi.tools",
+          "module": "CurseWrapperShared",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-jdk14",
+          "version": {
+            "requires": "1.7.33"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CurseWrapperServer-0.1.jar",
+          "url": "CurseWrapperServer-0.1.jar",
+          "size": 101174,
+          "sha512": "7ecdbc00e4a432e74c87653f1d5f96532dfbc463b56a6adfb7490b4f997f63636fbcc15f546b5a5c8051a6288c3953bc9ffd5aa63086cca5cc8587dd7a49baf2",
+          "sha256": "14a86a0ca626d7a4eaea4a863763ec8bdf605a384c4b0ad6c1aa16b58a2d09ed",
+          "sha1": "b9e352951480d29f074c8bbe4c0f1c9e2650b251",
+          "md5": "80ce320f4a8266350f23fa7a30966d56"
+        }
+      ]
+    }
+  ]
+}
