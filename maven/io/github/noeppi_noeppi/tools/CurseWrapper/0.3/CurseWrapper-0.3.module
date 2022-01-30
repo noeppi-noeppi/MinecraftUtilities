@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "CurseWrapper",
+    "version": "0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CurseWrapper-0.3.jar",
+          "url": "CurseWrapper-0.3.jar",
+          "size": 17807,
+          "sha512": "92ffdd2a3348e3567c6080aa623899a77c2369ad688b6a93e9c05d9a27038c503e52ff067b5b72263556d0f0e825acf2493fde94ed59fe0e6609641a21162b0e",
+          "sha256": "715873643870c61c02023fa5e9fbe1613ed40c253d41b01e2e800e099a31f46c",
+          "sha1": "9fb53829156bc383e41fbb9a42f0e4588ded67b3",
+          "md5": "2b0c257187cbeb7f18f782bb0d7aa66a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CurseWrapper-0.3.jar",
+          "url": "CurseWrapper-0.3.jar",
+          "size": 17807,
+          "sha512": "92ffdd2a3348e3567c6080aa623899a77c2369ad688b6a93e9c05d9a27038c503e52ff067b5b72263556d0f0e825acf2493fde94ed59fe0e6609641a21162b0e",
+          "sha256": "715873643870c61c02023fa5e9fbe1613ed40c253d41b01e2e800e099a31f46c",
+          "sha1": "9fb53829156bc383e41fbb9a42f0e4588ded67b3",
+          "md5": "2b0c257187cbeb7f18f782bb0d7aa66a"
+        }
+      ]
+    }
+  ]
+}
