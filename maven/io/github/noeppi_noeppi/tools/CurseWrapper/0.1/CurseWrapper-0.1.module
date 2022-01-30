@@ -37,10 +37,10 @@
           "name": "CurseWrapper-0.1.jar",
           "url": "CurseWrapper-0.1.jar",
           "size": 17282,
-          "sha512": "004f1364e1a216f77eccafc9c748bdd3087d6321125f56c635787039ec2ce9f27701ddae8150211fa38371bf33fed6984d023b60695e104ca5f0d4c0d32b8ce8",
-          "sha256": "c16fa458696a3cea2ef6dc23bef19ebbd18d5974c9f6c8384d029e3fe5876c0d",
-          "sha1": "13d3a5b044883cbc5eb4a4b5a1a06feed1a2b8e5",
-          "md5": "126b87558061c96234078d13c7f16587"
+          "sha512": "85df988bd07748baecd73a8f7085a71f234db1ecb573f33d237766664650979598ca3978457872590e0151c871e14f99fb5d450af2cf374ae291dd32629365e3",
+          "sha256": "758eea745a2440b8c92d5fbbf9d5ad27061c15323cd162255a9c2cc471ad29ef",
+          "sha1": "8f19ad4b4d4b2e092138f3c15fafa796bf62a19f",
+          "md5": "aaa153adc6bfe9e38cd7bc1bfad11300"
         }
       ]
     },
@@ -67,10 +67,10 @@
           "name": "CurseWrapper-0.1.jar",
           "url": "CurseWrapper-0.1.jar",
           "size": 17282,
-          "sha512": "004f1364e1a216f77eccafc9c748bdd3087d6321125f56c635787039ec2ce9f27701ddae8150211fa38371bf33fed6984d023b60695e104ca5f0d4c0d32b8ce8",
-          "sha256": "c16fa458696a3cea2ef6dc23bef19ebbd18d5974c9f6c8384d029e3fe5876c0d",
-          "sha1": "13d3a5b044883cbc5eb4a4b5a1a06feed1a2b8e5",
-          "md5": "126b87558061c96234078d13c7f16587"
+          "sha512": "85df988bd07748baecd73a8f7085a71f234db1ecb573f33d237766664650979598ca3978457872590e0151c871e14f99fb5d450af2cf374ae291dd32629365e3",
+          "sha256": "758eea745a2440b8c92d5fbbf9d5ad27061c15323cd162255a9c2cc471ad29ef",
+          "sha1": "8f19ad4b4d4b2e092138f3c15fafa796bf62a19f",
+          "md5": "aaa153adc6bfe9e38cd7bc1bfad11300"
         }
       ]
     }
