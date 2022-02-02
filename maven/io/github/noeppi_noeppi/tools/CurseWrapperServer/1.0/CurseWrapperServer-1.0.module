@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "CurseWrapperServer",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CurseWrapperServer-1.0.jar",
+          "url": "CurseWrapperServer-1.0.jar",
+          "size": 106802,
+          "sha512": "bb12506385bc7a057224182ef389d30603480204c1f05e5c2258fb27cbfb586fa90b013d82a8697efb712f51b73432266ee477abdb57ff5d9a5a8fcd53503f2d",
+          "sha256": "613322e2046ec160b6303a8517e640312d4866f48b1605bc46fd346be076f396",
+          "sha1": "595483a762303fd1a020a4ca816b88e38d7680bd",
+          "md5": "784f02eb516c47c07bc01caef1146ad6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "com.sparkjava",
+          "module": "spark-core",
+          "version": {
+            "requires": "2.9.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.33"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-jdk14",
+          "version": {
+            "requires": "1.7.33"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CurseWrapperServer-1.0.jar",
+          "url": "CurseWrapperServer-1.0.jar",
+          "size": 106802,
+          "sha512": "bb12506385bc7a057224182ef389d30603480204c1f05e5c2258fb27cbfb586fa90b013d82a8697efb712f51b73432266ee477abdb57ff5d9a5a8fcd53503f2d",
+          "sha256": "613322e2046ec160b6303a8517e640312d4866f48b1605bc46fd346be076f396",
+          "sha1": "595483a762303fd1a020a4ca816b88e38d7680bd",
+          "md5": "784f02eb516c47c07bc01caef1146ad6"
+        }
+      ]
+    }
+  ]
+}
