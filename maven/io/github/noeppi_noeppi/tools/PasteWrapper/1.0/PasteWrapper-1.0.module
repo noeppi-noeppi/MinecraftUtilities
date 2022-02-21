@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "PasteWrapper",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "PasteWrapper-1.0.jar",
+          "url": "PasteWrapper-1.0.jar",
+          "size": 25149,
+          "sha512": "9f22b9c988a66e1aa083507cd895e05c365268bab650328fd8a38e5ce333dae835df33f68e76a05f7552a60e45e96058182f158c55f776945989180b0bc2ed3b",
+          "sha256": "05a1626856d9e11e9295787c8e466a7d1afc081f2086a6a013f8e1b587ac883e",
+          "sha1": "146a65c85ff40cac27c1862b1bfae31a2a847d1e",
+          "md5": "783e90e996c32ae49a82d342ec5d608f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "com.sparkjava",
+          "module": "spark-core",
+          "version": {
+            "requires": "2.9.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-jdk14",
+          "version": {
+            "requires": "1.7.36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PasteWrapper-1.0.jar",
+          "url": "PasteWrapper-1.0.jar",
+          "size": 25149,
+          "sha512": "9f22b9c988a66e1aa083507cd895e05c365268bab650328fd8a38e5ce333dae835df33f68e76a05f7552a60e45e96058182f158c55f776945989180b0bc2ed3b",
+          "sha256": "05a1626856d9e11e9295787c8e466a7d1afc081f2086a6a013f8e1b587ac883e",
+          "sha1": "146a65c85ff40cac27c1862b1bfae31a2a847d1e",
+          "md5": "783e90e996c32ae49a82d342ec5d608f"
+        }
+      ]
+    }
+  ]
+}
