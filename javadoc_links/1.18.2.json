@@ -4,28 +4,28 @@
       "url": "https://docs.oracle.com/en/java/javase/17/docs/api/"
     },
     {
-      "url": "https://javadoc.io/doc/com.github.oshi/oshi-core/5.8.2",
-      "res": "https://repo1.maven.org/maven2/com/github/oshi/oshi-core/5.8.2/oshi-core-5.8.2-javadoc.jar"
+      "url": "https://javadoc.io/doc/com.github.oshi/oshi-core/5.8.5",
+      "res": "https://repo1.maven.org/maven2/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5-javadoc.jar"
     },
     {
-      "url": "https://javadoc.io/doc/net.java.dev.jna/jna/5.9.0",
-      "res": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar"
+      "url": "https://javadoc.io/doc/net.java.dev.jna/jna/5.10.0",
+      "res": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0-javadoc.jar"
     },
     {
-      "url": "https://javadoc.io/doc/net.java.dev.jna/jna-platform/5.9.0",
-      "res": "https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.9.0/jna-platform-5.9.0-javadoc.jar"
+      "url": "https://javadoc.io/doc/net.java.dev.jna/jna-platform/5.10.0",
+      "res": "https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0-javadoc.jar"
     },
     {
       "url": "https://javadoc.io/doc/org.slf4j/slf4j-api/1.8.0-beta4",
       "res": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4-javadoc.jar"
     },
     {
-      "url": "https://javadoc.io/doc/org.apache.logging.log4j/log4j-slf4j18-impl/2.14.1",
-      "res": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.14.1/log4j-slf4j18-impl-2.14.1-javadoc.jar"
+      "url": "https://javadoc.io/doc/org.apache.logging.log4j/log4j-slf4j18-impl/2.17.0",
+      "res": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.0/log4j-slf4j18-impl-2.17.0-javadoc.jar"
     },
     {
-      "url": "https://javadoc.io/doc/com.ibm.icu/icu4j/69.1",
-      "res": "https://repo1.maven.org/maven2/com/ibm/icu/icu4j/69.1/icu4j-69.1-javadoc.jar"
+      "url": "https://javadoc.io/doc/com.ibm.icu/icu4j/70.1",
+      "res": "https://repo1.maven.org/maven2/com/ibm/icu/icu4j/70.1/icu4j-70.1-javadoc.jar"
     },
     {
       "url": "https://javadoc.io/doc/net.sf.jopt-simple/jopt-simple/5.0.4",
@@ -56,8 +56,8 @@
       "res": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-javadoc.jar"
     },
     {
-      "url": "https://javadoc.io/doc/com.google.code.gson/gson/2.8.8",
-      "res": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8-javadoc.jar"
+      "url": "https://javadoc.io/doc/com.google.code.gson/gson/2.8.9",
+      "res": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9-javadoc.jar"
     },
     {
       "url": "https://javadoc.io/doc/org.apache.commons/commons-compress/1.21",
@@ -80,12 +80,12 @@
       "res": "https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6-javadoc.jar"
     },
     {
-      "url": "https://javadoc.io/doc/org.apache.logging.log4j/log4j-api/2.14.1",
-      "res": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1-javadoc.jar"
+      "url": "https://javadoc.io/doc/org.apache.logging.log4j/log4j-api/2.17.0",
+      "res": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0-javadoc.jar"
     },
     {
-      "url": "https://javadoc.io/doc/org.apache.logging.log4j/log4j-core/2.14.1",
-      "res": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1-javadoc.jar"
+      "url": "https://javadoc.io/doc/org.apache.logging.log4j/log4j-core/2.17.0",
+      "res": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0-javadoc.jar"
     },
     {
       "url": "https://javadoc.io/doc/org.lwjgl/lwjgl/3.2.2",
@@ -116,63 +116,6 @@
       "res": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-javadoc.jar"
     }
   ],
-  "mcp": [
-    {
-      "url": "https://javadoc.io/doc/com.google.code.findbugs/jsr305/3.0.1",
-      "res": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.jetbrains/annotations/23.0.0",
-      "res": "https://repo1.maven.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0-javadoc.jar"
-    }
-  ],
-  "forge": [
-    {
-      "url": "https://javadoc.io/doc/org.ow2.asm/asm/9.1",
-      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.1/asm-9.1-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.ow2.asm/asm-commons/9.1",
-      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.ow2.asm/asm-tree/9.1",
-      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.1/asm-tree-9.1-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.ow2.asm/asm-util/9.1",
-      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.1/asm-util-9.1-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.ow2.asm/asm-analysis/9.1",
-      "res": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.antlr/antlr4-runtime/4.9.1",
-      "res": "https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/com.electronwill.night-config/core/3.6.4",
-      "res": "https://repo1.maven.org/maven2/com/electronwill/night-config/core/3.6.4/core-3.6.4-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/com.electronwill.night-config/toml/3.6.4",
-      "res": "https://repo1.maven.org/maven2/com/electronwill/night-config/toml/3.6.4/toml-3.6.4-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.apache.maven/maven-artifact/3.6.3",
-      "res": "https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/net.minecrell/terminalconsoleappender/1.2.0",
-      "res": "https://repo1.maven.org/maven2/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0-javadoc.jar"
-    },
-    {
-      "url": "https://javadoc.io/doc/org.openjdk.nashorn/nashorn-core/15.3",
-      "res": "https://repo1.maven.org/maven2/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3-javadoc.jar"
-    },
-    {
-      "url": "https://jenkins.liteloader.com/job/Mixin/310/javadoc"
-    }
-  ]
+  "mcp": [],
+  "forge": []
 }
