@@ -116,6 +116,19 @@
       "res": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-javadoc.jar"
     }
   ],
-  "mcp": [],
+  "mcp": [
+    {
+      "url": "https://javadoc.io/doc/com.google.code.findbugs/jsr305/3.0.1",
+      "res": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/ca.weblite/java-objc-bridge/1.0.0",
+      "res": "https://repo1.maven.org/maven2/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-javadoc.jar"
+    },
+    {
+      "url": "https://javadoc.io/doc/org.jetbrains/annotations/23.0.0",
+      "res": "https://repo1.maven.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0-javadoc.jar"
+    }
+  ],
   "forge": []
 }
