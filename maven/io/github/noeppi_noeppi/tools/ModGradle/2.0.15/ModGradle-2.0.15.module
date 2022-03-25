@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "plugin",
+    "version": "2.0.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ModGradle-2.0.15.jar",
+          "url": "ModGradle-2.0.15.jar",
+          "size": 210959,
+          "sha512": "1851c6745e3792064c8feb3e241857918d0f3e7614ef3d8dd8c4f49326c9b61ccd6f8c2f4fea94f97359c2f29eacfa28badeceeac866001006ac83a33fa308eb",
+          "sha256": "8bb2d77a41a3bd8ea950c98c20e471d94b26e400d5912c6e1c3464dfaa5c0d87",
+          "sha1": "d1ad7a865d596f9790d68f64a4e55d03aca6be1e",
+          "md5": "9d4599dd263ff8165cd2ad206a7c5c57"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "strictly": "[3.0.2,)",
+            "requires": "[3.0.2,)",
+            "prefers": "3.0.2"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "srgutils",
+          "version": {
+            "strictly": "[0.4.9,)",
+            "requires": "[0.4.9,)",
+            "prefers": "0.4.9"
+          }
+        },
+        {
+          "group": "net.minecraftforge.gradle",
+          "module": "ForgeGradle",
+          "version": {
+            "strictly": "[5.1.31,5.2)",
+            "requires": "[5.1.31,5.2)",
+            "prefers": "5.1.31"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "artifactural",
+          "version": {
+            "strictly": "[3.0.8,)",
+            "requires": "[3.0.8,)",
+            "prefers": "3.0.8"
+          }
+        },
+        {
+          "group": "de.siegmar",
+          "module": "fastcsv",
+          "version": {
+            "strictly": "[2.1.0,)",
+            "requires": "[2.1.0,)",
+            "prefers": "2.1.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "strictly": "[2.9.0,)",
+            "requires": "[2.9.0,)",
+            "prefers": "2.9.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "strictly": "[31.0.1-jre,)",
+            "requires": "[31.0.1-jre,)",
+            "prefers": "31.0.1-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "strictly": "[3.12.0,4.0.0)",
+            "requires": "[3.12.0,4.0.0)",
+            "prefers": "3.12.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "strictly": "[2.11.0,)",
+            "requires": "[2.11.0,)",
+            "prefers": "2.11.0"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "strictly": "[3.8.4,)",
+            "requires": "[3.8.4,)",
+            "prefers": "3.8.4"
+          }
+        },
+        {
+          "group": "io.github.noeppi_noeppi.tools",
+          "module": "CurseWrapper",
+          "version": {
+            "strictly": "[1.0,)",
+            "requires": "[1.0,)",
+            "prefers": "1.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "strictly": "[2.17.2,)",
+            "requires": "[2.17.2,)"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "strictly": "[2.17.2,)",
+            "requires": "[2.17.2,)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ModGradle-2.0.15.jar",
+          "url": "ModGradle-2.0.15.jar",
+          "size": 210959,
+          "sha512": "1851c6745e3792064c8feb3e241857918d0f3e7614ef3d8dd8c4f49326c9b61ccd6f8c2f4fea94f97359c2f29eacfa28badeceeac866001006ac83a33fa308eb",
+          "sha256": "8bb2d77a41a3bd8ea950c98c20e471d94b26e400d5912c6e1c3464dfaa5c0d87",
+          "sha1": "d1ad7a865d596f9790d68f64a4e55d03aca6be1e",
+          "md5": "9d4599dd263ff8165cd2ad206a7c5c57"
+        }
+      ]
+    }
+  ]
+}
