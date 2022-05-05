@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "SourceTransform",
+    "version": "1.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SourceTransform-1.1.4.jar",
+          "url": "SourceTransform-1.1.4.jar",
+          "size": 460303,
+          "sha512": "6e27efb7dff4090ae8af2cdfa85ddaf1d73da558a45e39e3e2102fc55a7d0e241c27ce450dc4481fac9df6982ea94d188bd19b05a9d76b79ab637da73506e4b7",
+          "sha256": "03fc0b6f69e6d84073e04f4241309562eab5f815a4952e447450e3250c85b79d",
+          "sha1": "9c22a459f3ed5225ae790b98b9fd0d67a30b814b",
+          "md5": "549e425815e608fe4d316b62bdc180bc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.scala-lang",
+          "module": "scala-library",
+          "version": {
+            "requires": "2.13.8"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-parser-combinators_2.13",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "srgutils",
+          "version": {
+            "requires": "0.4.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "org.eclipse.jdt",
+          "module": "org.eclipse.jdt.core",
+          "version": {
+            "requires": "3.29.0"
+          }
+        },
+        {
+          "group": "org.parchmentmc",
+          "module": "feather",
+          "version": {
+            "requires": "1.0.0.3"
+          }
+        },
+        {
+          "group": "org.parchmentmc.feather",
+          "module": "io-gson",
+          "version": {
+            "requires": "1.0.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SourceTransform-1.1.4.jar",
+          "url": "SourceTransform-1.1.4.jar",
+          "size": 460303,
+          "sha512": "6e27efb7dff4090ae8af2cdfa85ddaf1d73da558a45e39e3e2102fc55a7d0e241c27ce450dc4481fac9df6982ea94d188bd19b05a9d76b79ab637da73506e4b7",
+          "sha256": "03fc0b6f69e6d84073e04f4241309562eab5f815a4952e447450e3250c85b79d",
+          "sha1": "9c22a459f3ed5225ae790b98b9fd0d67a30b814b",
+          "md5": "549e425815e608fe4d316b62bdc180bc"
+        }
+      ]
+    }
+  ]
+}
